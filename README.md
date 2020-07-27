@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# Prontun
+Projeto feito durante a imersão react da Alura com os instrutores Mario Souto, Juliana Negreiros e Marco Bruno
+>>>>>>> 3405da88146741f134245feade7534f353cb7c7d
