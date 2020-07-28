@@ -22,4 +22,9 @@
   
   a {
     color: inherit;
-  } 
+  }
+
+  #root {
+    min-height: 100vh;
+    background-color: orangered;
+  }
