@@ -11,7 +11,7 @@ function Menu() {
           <Link to="/">
             <img className="Logo" src={Logo} alt="Logo PROTUN"/>
           </Link>
-          <Button as={Link} className="ButtonLink" to="/cadastro">
+          <Button as={Link} className="ButtonLink" to="/cadastro/video">
             Add Video
           </Button>
       </nav>
