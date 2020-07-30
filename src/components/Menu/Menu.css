@@ -1,3 +1,14 @@
+@font-face {
+  font-family: Bourgeois;
+  src: url("../../assets/fonts/Bourgeois-Book.otf"); 
+}
+
+.title {
+  color: aliceblue;
+  font-family: Bourgeois;
+  letter-spacing: 5px;
+}
+
 .Logo {
     max-width: 80px;
   }
