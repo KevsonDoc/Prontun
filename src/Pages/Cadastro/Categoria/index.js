@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import PageDefault from '../../../components/PageDefault';
@@ -6,7 +6,6 @@ import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 
 function CadastroCategoria() {
-
   const valoresIniciais = { 
     nome: '',
     descricao: '',
@@ -27,7 +26,21 @@ function CadastroCategoria() {
       event.target.getAttribute('name'),
       event.target.value);
   }
+
+  useEffect(() => {
+    console.log('Ola Mundo');
+    const URL = 'http://localhost:8080/categorias';
+    fetch(URL)
+      .then(async (response) => {
+        const data = await response.json();
+        setCategorias([
+          ...data,
+        ]);
+      });
+  }, []);
+
   
+
   return (
       <>
         <PageDefault>
@@ -65,7 +78,7 @@ function CadastroCategoria() {
               value={values.cor}
               onChange={handleChange}
             />
-            <Button >
+            <Button>
               Cadastrar
             </Button>
           </form>
