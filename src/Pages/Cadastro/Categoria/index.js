@@ -29,7 +29,7 @@ function CadastroCategoria() {
 
   useEffect(() => {
     console.log('Ola Mundo');
-    const URL = 'http://localhost:8080/categorias';
+    const URL = 'https://proctun.herokuapp.com/categorias';
     fetch(URL)
       .then(async (response) => {
         const data = await response.json();
