@@ -19,21 +19,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .title_1 {
-  color: black;
-  justify-content: center;
-  align-items: center;
-  margin-top: 34vh;
+  color: wheat;
   margin-left: 10vh;
   font-family: Bourgeois;
   letter-spacing: 5px;
 }
 
 .title_2 {
-  margin-top: 25vh;
   color: white;
   margin-left: 15vh;
   font-family: Bourgeois;
@@ -43,20 +38,15 @@
 @media (min-width: 2560px) {
 
   .title_1 {
-    color: black;
-    justify-content: center;
+    color: wheat;
     font-size: 100px;
-    align-items: center;
-    margin-top: 40vh;
     margin-left: 10vh;
     font-family: Bourgeois;
     letter-spacing: 5px;
   }
 
   .title_2 {
-    margin-top: 25vh;
-    color: white;
-    margin-left: 15vh;
+    margin-left: 10vh;
     font-family: Bourgeois;
     letter-spacing: 15px;
     font-size: 100px;
@@ -65,22 +55,17 @@
 
 @media (min-width: 768px) {
     .title_1 {
-      color: black;
-      justify-content: center;
-      align-items: center;
-      margin-top: 38vh;
-      margin-left: 10vh;
+      color: wheat;
+      margin-left: 5vh;
       font-family: Bourgeois;
       letter-spacing: 5px;
     }
 
     .title_2 {
-      margin-top: 22vh;
       color: white;
-      margin-left: 15vh;
+      margin-left: 5vh;
       font-family: Bourgeois;
       letter-spacing: 5px;
-      text-align: center;
     }
   }
 
@@ -99,11 +84,8 @@
   }
 
   .title_1 {
-    color: black;
-    justify-content: center;
-    align-items: center;
+    color: wheat;
     font-size: 15px;
-    margin-top: 40vh;
     margin-left: 4.5vh;
     font-family: Bourgeois;
     letter-spacing: 5px;
@@ -111,8 +93,6 @@
 
   .title_2 {
     color: white;
-    text-align: center;
-    margin-top: 20vh;
     margin-left: 10vh;
     font-family: Bourgeois;
     letter-spacing: 5px;
@@ -124,7 +104,7 @@
       position: fixed; 
       right: 0; 
       bottom: 0;
-      background-color: black;
+      background-color: wheat;
       min-width: 100%; 
       min-height: 100%;
       width: 100%;
@@ -134,11 +114,8 @@
   }
 
   .title_1 {
-    color: black;
-    justify-content: center;
-    align-items: center;
+    color: wheat;
     font-size: 10px;
-    margin-top: 40vh;
     margin-left: 4.5vh;
     font-family: Bourgeois;
     letter-spacing: 5px;

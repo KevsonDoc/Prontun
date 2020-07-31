@@ -7,12 +7,12 @@ function Err() {
   return (
       <>
         <Menu />
+        <video id="bg" className="bg_video" src={Video} autoPlay loop muted></video>
         <div className="container_404">
-          <h1 className="title_1">Erro 404</h1>
-          <h1 className="title_2">Eu conseguir encontrar o que você procura</h1>
-          <video autoPlay className="bg_video" loop>
-	          <source src={Video} type="video/mp4" />
-          </video>
+          <h1 className="title_1">Erro 404
+            <br/>
+              Página não encontrada
+            </h1>
         </div>
       </>
   );
