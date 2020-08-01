@@ -8,11 +8,23 @@
             "videos": [
                 {
                     "id_video": 1,
+                    "title": "GitHub Arctic Code Vault | GitHub",
                     "url": "https://www.youtube.com/watch?v=fzI9FNjXQ0o&feature=youtu.be"
                 },
                 {
                     "id_video": 2,
+                    "title": "We Persevere | NASA",
                     "url": "https://www.youtube.com/watch?v=6qA9iaAUo8k"
+                },
+                {
+                    "id_video": 3,
+                    "title": "We Are Going | NASA",
+                    "url": "https://www.youtube.com/watch?v=vl6jn-DdafM&list=WL&index=72&t=97s"
+                },
+                {
+                    "id_video": 4,
+                    "title": "Mars 101 | National Geographic",
+                    "url": "https://www.youtube.com/watch?v=vl6jn-DdafM&list=WL&index=72&t=97s"
                 }
             ]
         },
