@@ -2,9 +2,19 @@
     "categorias": [
         {
             "id": 1,
-            "nome": "Front-End",
-            "descricao": "Uma categoria bacanuda",
-            "cor": "#cbd1ff"
+            "nome": "Science",
+            "descricao": "Science, Astronomy and Space exploration",
+            "cor": "#cbd1ff",
+            "videos": [
+                {
+                    "id_video": 1,
+                    "url": "https://www.youtube.com/watch?v=fzI9FNjXQ0o&feature=youtu.be"
+                },
+                {
+                    "id_video": 2,
+                    "url": "https://www.youtube.com/watch?v=6qA9iaAUo8k"
+                }
+            ]
         },
         {
             "id": 2,
