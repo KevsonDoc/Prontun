@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import Home from './Pages/Home/index.js';
-import CadastroVideo from './Pages/Cadastro/Video';
 import CadastroCategoria from './Pages/Cadastro/Categoria';
 import Err from './Pages/Err';
 
@@ -13,7 +12,6 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={Home}/>
-      <Route path="/cadastro/video" component={CadastroVideo}/>
       <Route path="/cadastro/categoria" component={CadastroCategoria}/>
       <Route component={Err}/>
     </Switch>

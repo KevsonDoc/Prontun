@@ -10,8 +10,8 @@ function Menu() {
           <Link to="/">
             <h1 className="title">PROCTUN</h1>
           </Link>
-          <Button as={Link} className="ButtonLink" to="/cadastro/video">
-            Add Video
+          <Button as={Link} className="ButtonLink" to="/cadastro/categoria">
+            Add Categoria
           </Button>
       </nav>
   );
